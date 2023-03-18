@@ -1,0 +1,16 @@
+{
+  "name": "primer-proyecto-node",
+  "version": "1.0.0",
+  "description": "primer proyecto con node para front end",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npx tailwindcss -o ./dist/output.css --minify",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BERMUDEZ",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
